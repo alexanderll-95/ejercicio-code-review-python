@@ -11,7 +11,6 @@ class calculadora:
         valor1= int(input("valor:"))
         return valor1
 
-
     def __init__(self):
         self.valor1=int(input("Ingrese primer valor:"))
         self.valor2=int(input("Ingrese segundo valor:"))
@@ -38,6 +37,6 @@ class calculadora:
         multi=self.valor1*self.valor2
         print("El producto es",multi)
 
-    def dividir(self):
+    def dividir(self): #Al dividir devo asignar una variable flotante
         divi=self.valor1/self.valor2
         print("La division es",divi)

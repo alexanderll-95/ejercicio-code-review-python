@@ -13,8 +13,8 @@ class distancia:
         print("Ingrese coordenadas del Punto B: ")
         BX = float(input("Bx: "))
 
-        ISBN: 978 - 958 - 53018 - 2 - 5
-        67 / 257
+        #ISBN: 978 - 958 - 53018 - 2 - 5 #No se utiliza esta variable
+        #67 / 257 linea innecesaria, no se almacena en ninguna variable
         BY = float(input("By: "))
         # Proceso
         D = ((AX - BX) ** 2 + (AY - BY) ** 2) ** 0.5

@@ -13,9 +13,9 @@ class promedio:
         print("-------------------------------------------------------")
         # Entradas
         print("Ingrese notas: ")
-        N1 = int(input("N1: "))
+        N1 = int(input("N1: ")) #podrian ser valores de tipo float
         N2 = int(input("N2: "))
-        # Proceso
+        # Proceso - Puedo ahorrar lineas de codigo
         S = N1 + N2
         P = S / 2
         # Salida

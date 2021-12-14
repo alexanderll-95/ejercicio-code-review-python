@@ -7,7 +7,7 @@ class rectangulo:
 
     def principal(self):
         # -*- coding: utf-8 -*-
-        # Decoración: Nombre del Algoritmo
+        # Decoración: Nombre del Algoritmo - Falta decoración que maneja el formato de los menus anteriores
         # Entradas
         print("Ingrese Base y Alto: ")
         BASE = float(input("Base: "))
